@@ -19,7 +19,7 @@ public class JavaApplication {
         System.out.println("HELLO WORLD");
    int a=23;
    int b=6;
-   System.out.prinltn(a+b);
+   System.out.println(a+b);
     }
     
 }
