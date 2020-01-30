@@ -10,7 +10,13 @@ public class Card {
         public enum Value{ACE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE, TEN, JACK, QUEEN, KING};
         private final Suit suit;
         private final Value value;
+
+    public String getJoker() {
+        return joker;
+    }
+        private final String joker;
         
+       
         public Card(Suit s, Value gVal)
         {
            suit =s;
